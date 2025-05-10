@@ -14,6 +14,8 @@ namespace GakumasResize
 {
     public partial class Form1 : Form
     {
+        private const string TargetWindowName = "gakumas";
+
         public Form1()
         {
             InitializeComponent();
@@ -37,8 +39,7 @@ namespace GakumasResize
                 MessageBox.Show(@"ディスプレイが指定されていません。先に学マスを表示するディスプレイを選択してください。", @"GakumasResize", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
-            const string targetWindowName = "gakumas";
-            var process = Process.GetProcessesByName(targetWindowName).FirstOrDefault();
+            var process = Process.GetProcessesByName(TargetWindowName).FirstOrDefault();
             if (process == null)
             {
                 MessageBox.Show(@"学マスのウィンドウが見つかりませんでした。学マスが起動していることを確認してください。", @"GakumasResize", MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -155,8 +156,7 @@ namespace GakumasResize
             try
             {
                 var gakumasResizePicturesFolder = GetScreenshotFolder();
-                const string targetWindowName = "gakumas";
-                var process = Process.GetProcessesByName(targetWindowName).FirstOrDefault();
+                var process = Process.GetProcessesByName(TargetWindowName).FirstOrDefault();
                 if (process == null)
                 {
                     MessageBox.Show(@"学マスのウィンドウが見つかりませんでした。", @"エラー", MessageBoxButtons.OK, MessageBoxIcon.Error);
