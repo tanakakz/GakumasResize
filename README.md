@@ -1,4 +1,4 @@
-# StarlightResize
+# GakumasResize
 
 DISCLAIMER: このツールは MIT License でライセンスされています。ソフトウェアは「現状のまま」で、明示であるか暗黙であるかを問わず、何らの保証もなく提供されます。ここでいう保証とは、商品性、特定の目的への適合性、および権利非侵害についての保証も含みますが、それに限定されるものではありません。 作者または著作権者は、契約行為、不法行為、またはそれ以外であろうと、ソフトウェアに起因または関連し、あるいはソフトウェアの使用またはその他の扱いによって生じる一切の請求、損害、その他の義務について何らの責任も負わないものとします。 
 
@@ -25,13 +25,13 @@ DISCLAIMER: このツールは MIT License でライセンスされています�
 
 - 16:9 でない縦横比のサイズが設定された時に自動的に 16:9 に収める
 - 縦の時に対応する
-- デレステ以外でも使えるようにする？
+- 学マス以外でも使えるようにする？
 - ディスプレイ解像度から 1.5倍 or 2倍 の解像度を簡単に設定できるようにする
 
 ## How to Run
 
-1. インストールしていない場合は https://dotnet.microsoft.com/download/dotnet/5.0 から .NET 5 Desktop Runtime をインストールする
-1. [Releases](https://github.com/rinsuki/StarlightResize/releases) から zipをダウンロードして中にある StarlightResize.exe を実行する
+1. インストールしていない場合は https://dotnet.microsoft.com/download/dotnet/8.0 から .NET 8 Desktop Runtime をインストールする
+1. [Releases](https://github.com/tanakakz/GakumasResize/releases) から zipをダウンロードして中にある GakumasResize.exe を実行する
 
 ## FAQ
 
