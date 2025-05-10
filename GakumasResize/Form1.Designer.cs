@@ -1,5 +1,5 @@
 ﻿
-namespace StarlightResize
+namespace GakumasResize
 {
     partial class Form1
     {
@@ -428,7 +428,7 @@ namespace StarlightResize
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.Name = "Form1";
-            this.Text = "StarlightResize";
+            this.Text = "GakumasResize";
             tableLayoutPanel1.ResumeLayout(false);
             tableLayoutPanel1.PerformLayout();
             tableLayoutPanel2.ResumeLayout(false);
